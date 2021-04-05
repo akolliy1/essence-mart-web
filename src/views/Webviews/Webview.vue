@@ -8,7 +8,7 @@
     @load="onLoad"
     name="my-frame"
     width="100%"
-    height="100%"
+    height="100vh"
   />
   <!-- <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-pointer-lock" src="http://localhost:8080/https://www.6pm.com/" style="border: 0; width:100%; height:1700px;overflow: hidden;"></iframe> -->
 </div>
@@ -32,7 +32,7 @@ export default {
 
     var xhr = new XMLHttpRequest();
 
-    xhr.open('GET', 'http://localhost:8080/https://www.jumia.com.ng/');
+    xhr.open('GET', 'http://localhost:8080/https://www.argos.co.uk/');
     xhr.onreadystatechange = handler;
     xhr.responseType = 'blob';
     xhr.setRequestHeader('Authorization', 'Bearer ' + 'token');
